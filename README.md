@@ -5,11 +5,8 @@ What you will need:
 
 
 Raspberry Pi 3
-
 Elegoo Touchscreen LCD
-
 USB Laser Barcode scanner
-
 16GB Micro SD Card
 
 
