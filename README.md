@@ -1,14 +1,19 @@
 This is a guide on how to get your Fridge Scan running on your Raspberry Pi 3
 
+------------------
 
 What you will need:
 
 
 Raspberry Pi 3
+
 Elegoo Touchscreen LCD
+
 USB Laser Barcode scanner
+
 16GB Micro SD Card
 
+------------------
 
 Step 1 Setup:
 
@@ -28,6 +33,7 @@ Type "sudo raspi-config" in your terminal.
 
 Enable "Serial" at the interfacing options.
 
+------------------
 
 Step 2 Installing dependencies:
 
@@ -45,6 +51,7 @@ Replace ** with the 2 digits of your Elegoo LCD screen size and type "sudo ./LCD
 
 These commands will take a while to finnish.
 
+------------------
 
 Step 3 Reboot:
 
@@ -54,6 +61,7 @@ Connect the LCD screen to the Raspberry.
 
 Turn on your pi.
 
+------------------
 
 Step 4 Code:
 
@@ -67,6 +75,7 @@ Type "sudo python barcode.py" to run your script.
 
 Enjoy yuor fridge scan!
 
+------------------
 
 Step 5 (optional):
 
